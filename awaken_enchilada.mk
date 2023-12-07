@@ -23,6 +23,7 @@ $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common Awaken stuff.
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := awaken_enchilada
 PRODUCT_DEVICE := enchilada
